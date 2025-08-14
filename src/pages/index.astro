@@ -5,6 +5,7 @@ import '../../assets/scss/astro-ecommerce.scss';
 import CardCategory from '../components/products/cardCategory';
 import ProductFeature from '../components/products/productFeature';
 import Navbar from '../components/navbar';
+import SecondaryNavbar from '../components/secondaryNavbar';
 import Footer from '../components/footer';
 import TestimonialsFade from '../components/promo/testimonialsFade';
 import PromoSectionLarge from '../components/promo/promoSectionLarge';
@@ -13,6 +14,7 @@ import PromoSectionLarge from '../components/promo/promoSectionLarge';
 <Layout title="SonusHUB">
 	<main>
     <Navbar />
+    <SecondaryNavbar client:load />
     <PromoSectionLarge 
       title={"Collection is here"}
       full_description={data.products[0].full_description}  

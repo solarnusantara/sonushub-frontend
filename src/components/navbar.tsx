@@ -10,8 +10,8 @@ const Navbar = () => {
             <span className="navbar-toggler-bar bar3"></span>
           </span>
         </button>
-        <div className="collapse navbar-collapse" id="navigation">
-          <div className="ms-lg-3">
+        <div className="collapse navbar-collapse justify-content-center" id="navigation">
+          <div className="w-50">
             <div className="input-group">
               <span className="input-group-text">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="opacity-8">
@@ -21,28 +21,6 @@ const Navbar = () => {
               <input type="text" className="form-control" placeholder="Search" />
             </div>
           </div>
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="#">
-                Beranda
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="#">
-                Kategori
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="#">
-                Merk
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="#">
-                Blog
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </nav>
